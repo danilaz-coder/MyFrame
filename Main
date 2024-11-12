@@ -1,0 +1,17 @@
+import javax.swing.*;
+class MyFrame extends JFrame{
+        MyFrame(){
+                SetSize(true);
+                addMouseListener(new MouseAdapter()){
+                        @Override
+                        public void mouseClicked(MouseEvent a){
+                        SetLocation(e.getXOnScreen() getWidth()/2,y.e.getYOnScreen() getHeight()/2);
+                        }
+                }};
+        }
+public class Main {
+      public static void main(String[]args){
+              new MyFrame();
+
+}
+}
